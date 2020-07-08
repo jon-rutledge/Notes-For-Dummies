@@ -1,0 +1,93 @@
+
+########
+
+GIT Cheat sheet
+
+########
+
+
+Cloning:
+'''
+This downloads a repo to the current working directory
+'''
+
+git clone URL_from_repo
+
+Get Status:
+'''
+Will show what is different between your hosted cloned repo
+and the original source repo
+'''
+
+git status
+
+
+Adding:
+'''
+Will add a new file that is present in the working directory to
+the repo so it will be included when committed
+
+using * will add all new files
+'''
+
+git add filename
+git add *  
+
+
+Committing:
+'''
+will commit changes to be loaded to the repo when pushed
+
+will not be synced to primary source until pushed
+'''
+
+git commit -m "Message about the commit"
+
+NOTE:  if you forget to add a message, a weird window will come up
+    you can get out of it with ESC --> :wq --> Enter
+
+
+Pushing:
+'''
+sync the committed changes to the repo
+'''
+
+git push
+
+
+Pull:
+'''
+if you have a branch of the repo, this will pull the existing 
+version down to your directory
+
+Think of this like a refresh to the clone
+'''
+
+git pull
+
+Typical workflow:
+1. Confirm you a branch of the repo (clone)
+2. If yes, always pull before during work to get up to date
+3. do work
+4. commit changes
+5. push changes
+
+git clone URL
+git pull
+git add -A
+git commit -m "message"
+git push
+
+
+#############
+
+Git Ignore
+
+#############
+
+show hidden files with CTRL + H
+
+
+
+
+
