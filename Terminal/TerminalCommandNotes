@@ -26,6 +26,10 @@ what your project uses.
 Install and Managing packages
 ------------------------------
 
+#installing conda
+# go to Anaconda.com and get the relevant .sh file
+
+
 #list out all packages in Conda
 conda list
 
