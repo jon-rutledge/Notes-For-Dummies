@@ -1,0 +1,33 @@
+#############################
+
+Jupyter Notebooks   
+
+#############################
+
+Jupyter is a handy method to bring your narrative, code, and visualizations all together
+in an easy to share web doc.
+
+## getting started ##
+
+------------------------------
+Installing Jupyter
+------------------------------
+
+conda install jupyter notebook
+pip install jupyter notebook
+
+
+------------------------------
+Starting Jupyter Server
+------------------------------
+
+jupyter notebook
+
+this starts the server at http://localhost:8888
+
+------------------------------
+Managing environments in Jupyter with Conda
+------------------------------
+
+conda install nb_conda
+

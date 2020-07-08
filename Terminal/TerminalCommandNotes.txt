@@ -1,0 +1,121 @@
+#############################
+
+Notes on various Functions and Terminal Commands
+
+#############################
+
+
+## Anaconda/Conda ##
+
+Anaconda is distribution software that allows us to create isolated 
+development environments using very specific libraries and builds of Python.
+This is very useful as some projects by be build specific.
+
+Anaconda is the distribution service
+Conda is the library that manages all the other libraries and will be used in Terminal
+miniconda is a lighter weight version of Conda with less libraries
+
+Conda is similar to PIP, but is NOT python specific.
+Also it is more heavily focused on data science.
+
+TIP:
+You can export the exact list of lirbaries using Conda, so people know exactly
+what your project uses.
+
+------------------------------
+Install and Managing packages
+------------------------------
+
+#list out all packages in Conda
+conda list
+
+#update all packages
+conda upgrade --all
+
+#Update single package
+conda update package_name
+
+#installing a package to conda 
+conda install package_name
+
+#example
+conda install numpy
+
+#install multiple packages at once
+conda install numpy scipy pandas
+
+#install specific version
+conda install numpy=1.10
+
+#remove packages from conda
+conda remove package_name
+
+#search through conda for installed package using wildcards
+conda search '*beautifulsoup*'
+
+
+------------------------------
+Managing Development Environments
+------------------------------
+
+#create a new environment
+conda create -n env_name list of packages
+
+#-n env_name --> environment name == env_name
+#list of packages can be any number, similar to the install command
+#example:
+conda create -n my_env numpy
+
+#you can also specific the python version of the environment
+conda create -n py3 python=3
+conda create -n py2 python=2
+
+#specific version to the point release:
+conda create -n py python=3.3
+
+#list environments
+conda env list
+
+#removing environments
+conda env remove -n env_name
+
+------------------------------
+Activating and using a Conda environment
+------------------------------
+
+
+conda activate my_env
+
+#when in a specific environment you will see a (env_name) on the left side of the terminal entry
+
+#you can install individual items to the conda environment while it is active.
+#think of it as a working directory for conda
+
+#turn off/on
+conda deactivate
+conda activate
+
+
+------------------------------
+YAML exports and installing from a YAML
+------------------------------
+
+#you can export the packages currently in use in a conda environment with
+conda env export
+
+#this will tell you the packages in a list
+
+#you can export to a YAML file with this
+conda env export > environment.yaml
+
+#create a new environment from yaml file as starting point
+conda env create -f environment.yaml
+
+
+
+
+
+
+
+
+

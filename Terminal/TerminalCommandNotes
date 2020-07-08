@@ -1,0 +1,59 @@
+#############################
+
+Notes on various Functions and Terminal Commands
+
+#############################
+
+
+## Anaconda/Conda ##
+
+Anaconda is distribution software that allows us to create isolated 
+development environments using very specific libraries and builds of Python.
+This is very useful as some projects by be build specific.
+
+Anaconda is the distribution service
+Conda is the library that manages all the other libraries and will be used in Terminal
+miniconda is a lighter weight version of Conda with less libraries
+
+Conda is similar to PIP, but is NOT python specific.
+Also it is more heavily focused on data science.
+
+TIP:
+You can export the exact list of lirbaries using Conda, so people know exactly
+what your project uses.
+
+------------------------------
+Install and Managing packages
+------------------------------
+
+#list out all packages in Conda
+conda list
+
+#update all packages
+conda upgrade --all
+
+#Update single package
+conda update package_name
+
+#installing a package to conda 
+conda install package_name
+
+#example
+conda install numpy
+
+#install multiple packages at once
+conda install numpy scipy pandas
+
+#install specific version
+conda install numpy=1.10
+
+#remove packages from conda
+conda remove package_name
+
+#search through conda for installed package using wildcards
+conda search '*beautifulsoup*'
+
+
+
+
+

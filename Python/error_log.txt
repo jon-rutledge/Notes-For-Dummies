@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
+Traceback (most recent call last):
+  File "Errors.py", line 21, in <module>
+    raise Exception('Boom')
+Exception: Boom
